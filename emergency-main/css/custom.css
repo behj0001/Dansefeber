@@ -1,29 +1,29 @@
 :root {
   /* Colours */
-  --primary-bg-color: #e8ebee; /* used */
-  --primary-font-color: #474d52; /* used */
+  --primary-bg-color: #fceb94; /* used */
+  --primary-font-color: #000000; /* used */
 
-  --secondary-bg-color: #5d656c; /* used */
-  --secondary-font-color: #d5e5f4; /* used */
+  --secondary-bg-color: #c91a1a; /* used */
+  --secondary-font-color: #ffffff; /* used */
 
   /* CAN BE DELETED WHEN THE PLACEHOLDER CLASS IS DELETED */
-  --placeholder-bg-color: #eb9e1a; /* used */
-  --placeholder-font-color: #575c61; /* used */
+  --placeholder-bg-color: #926a24; /* used */
+  --placeholder-font-color: #122d47; /* used */
 
   /* NOT USED AT THE MOMENT */
-  --info-color: #17a2b8;
+  --info-color: #487880;
   --warning-color: #ffc107;
   --danger-color: #dc3545;
 
   /* Borders */
-  --border-color: #007bff; /* used */
-  --border-color-light: #f7f5c2; /* used */
+  --border-color: #007bff00; /* used */
+  --border-color-light: #fff707; /* used */
   --border-radius: 0.25rem;
 
   /* Links */
-  --link-color: #84888e; /* used */
+  --link-color: #ffffff; /* used */
   --hover-color: #f9fcfe; /* used */
-  --active-color: #f52727; /* used */
+  --active-color: #a30d0d; /* used */
 
   /* From styletile */
 
@@ -45,42 +45,42 @@
 
   /* Text colors */
   --logotype-color: #ffffff;
-  --headline-color: #bbc3ca;
-  --headline-color-inverted: #f9fcfe;
-  --bodytext-color: #575c61;
-  --bodytext-color-inverted: #f9fcfe;
-  --cta-text-color: #bbc3ca;
+  --headline-color: #ffffff;
+  --headline-color-inverted: #ffffff;
+  --bodytext-color: #01070c;
+  --bodytext-color-inverted: #2e861c;
+  --cta-text-color: #17a817;
   --cta-text-color-inverted: #bbc3ca;
   --followup-text-color: #575c61;
-  --followup-text-color-inverted: #bbc3ca;
-  --formfield-text-color: #575c61;
+  --followup-text-color-inverted: #56a812;
+  --formfield-text-color: #ffffff;
   --form-submit-color: #bbc3ca;
-  --form-submit-color-inverted: #bbc3ca;
+  --form-submit-color-inverted: #ffffff;
 
   /* Background colors */
-  --logotype-background-color: #a9aaae;
-  --header-background-color: #cfd5e5;
-  --article-background-color: #dbdde3;
-  --news-background-color: #dbdde3;
-  --news-background-color-inverted: #eeebe9;
-  --info-background-color: #dbdde3;
-  --headline-bg-color: #dbdde3;
-  --headline-bg-color-alert: #dbdde3;
-  --headline-bg-color-inverted: #dbdde3;
-  --bodytext-bg-color: #dbdde3;
-  --bodytext-bg-color-inverted: #dbdde3;
-  --cta-text-bg-color: #dbdde3;
-  --cta-text-bg-color-inverted: #dbdde3;
-  --followup-text-bg-color: #e8ebee;
-  --followup-text-bg-color-inverted: #dbdde3;
-  --form-background-color: #c5c7ce;
-  --form-text-color: #dbdde3;
-  --formfield-background-color: #dbdde3;
-  --formfield-background-color-active: #dbdde3;
-  --form-submit-bg-color: #dbdde3;
-  --form-submit-bg-color-inverted: #dbdde3;
+  --logotype-background-color: #000000;
+  --header-background-color: #ff4b00;
+  --article-background-color: #ffffff;
+  --news-background-color: #192f72;
+  --news-background-color-inverted: #dbe2f5;
+  --info-background-color: #ffffff;
+  --headline-bg-color: #385a8d;
+  --headline-bg-color-alert: #ff4b00;
+  --headline-bg-color-inverted: #000000;
+  --bodytext-bg-color: #132866;
+  --bodytext-bg-color-inverted: #3b7c1d;
+  --cta-text-bg-color: #4a7518;
+  --cta-text-bg-color-inverted: #aa1c1c;
+  --followup-text-bg-color: #ffffff;
+  --followup-text-bg-color-inverted: #ffffff;
+  --form-background-color: #143bc9;
+  --form-text-color: #1b2f6b;
+  --formfield-background-color: #d31fac;
+  --formfield-background-color-active: #c01595;
+  --form-submit-bg-color: #d524e6;
+  --form-submit-bg-color-inverted: #c5149f;
 
   /* Info-boxes */
-  --info-bg-color-yellow: #d6d5ce;
-  --info-bg-color-green: #a6a6a0;
+  --info-bg-color-yellow: #fceb94;
+  --info-bg-color-green: #def5db;
 }

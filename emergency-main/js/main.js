@@ -14,8 +14,8 @@ function dameHueAF() {
 
 function dameInfo() {
     console.log("Click dame aktiveret")
-    document.querySelector(".info-text > h2").textContent = "1234"
-    document.querySelector(".info-text > article > p").textContent = "Her skal stå noget"
+    document.querySelector(".info-text > h2").textContent = "Grav-orm"
+    document.querySelector(".info-text > article > p").textContent = "Henriette på 30 lavede ormen til hendes svogers begravelse. 'Vildt akavet', udtaler flere gæster sig."
 }
 
 document.querySelector("#Mand").addEventListener("mouseover", mandHue)
@@ -34,8 +34,8 @@ function mandHueAF() {
 
 function mandInfo() {
     console.log("Click mand aktiveret")
-    document.querySelector(".info-text > h2").textContent = "mand"
-    document.querySelector(".info-text > article > p").textContent = "mand mand mand"
+    document.querySelector(".info-text > h2").textContent = "Danse-marathon!"
+    document.querySelector(".info-text > article > p").textContent = "Mand i Søborg har danset i fire dage straight. Til BT kommenterede han: 'Der ild i mine fusser'."
 }
 
 document.querySelector("#Mone").addEventListener("mouseover", moneHue)
@@ -54,6 +54,6 @@ function moneHueAF() {
 
 function moneInfo() {
     console.log("Click mone aktiveret")
-    document.querySelector(".info-text > h2").textContent = "måne ligner diskokugle"
-    document.querySelector(".info-text > article > p").textContent = "Måne sdfqerf"
+    document.querySelector(".info-text > h2").textContent = "Måne = Disco"
+    document.querySelector(".info-text > article > p").textContent = "I region Midtjylland erfares det at flere af de inficerede anser månen som en kæmpestor discokugle. Eksperter frygter at Herning er ved at blive lavet til floor."
 }
