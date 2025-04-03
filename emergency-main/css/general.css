@@ -138,3 +138,63 @@ footer a {
 .green {
   background-color: var(--info-bg-color-green);
 }
+
+#form-info {
+  padding-left: 20px;
+}
+
+/* Tilføjelser fra mig */
+/* Register */
+
+#form-section {
+  padding: 0;
+  height: auto;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1px;
+  padding-top: 0px;
+}
+
+.felt {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  padding-bottom: 1px;
+}
+
+label {
+  padding-bottom: 5px;
+}
+
+.bred {
+  height: 22px;
+}
+
+textarea {
+  height: 75px;
+  width: 270px;
+}
+
+#dato {
+  margin-bottom: 5px;
+}
+
+.checkflex {
+  display: flex;
+  flex-direction: column;
+}
+
+.range {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.send {
+  margin-top: 30px;
+  width: 80px;
+  height: 30px;
+}

@@ -14,7 +14,7 @@
   </head>
   <body id="register">
     <header>
-      <nav>
+      <nav class="headright">
         <div id="logotype-wrapper">
           <a href="index.html"> LOGOTYPE </a>
         </div>
@@ -28,11 +28,84 @@
     <main>
       <h1>INDBERET</h1>
       <section id="form-section">
-        <article id="form-info">
-          <h2>Overskrift</h2>
-          <p>Tekst</p>
-        </article>
-        <form id="webform"></form>
+        <article id="form-info"></article>
+        <form>
+          <fieldset>
+            <h2>Har du set en smittet?</h2>
+            <p>
+              Udfyld formularen så vi hurtigst muligt kan følge op på
+              situationen.
+            </p>
+            <h4>Oplysninger så vi kan komme i kontakt med dig</h4>
+            <section class="formGrid">
+              <section class="felt">
+                <label for="fornavn">Fornavn</label>
+                <input class="bred" type="text" id="fornavn" required />
+              </section>
+              <section class="felt">
+                <label for="efternavn">Efternavn</label>
+                <input class="bred" type="text" id="efternavn" required />
+              </section>
+              <section class="felt">
+                <label for="mail">Email</label>
+                <input class="bred" type="text" id="mail" required />
+              </section>
+              <section class="felt">
+                <label for="nummer">Telefonnummer</label>
+                <input
+                  class="bred"
+                  type="tel"
+                  name="tel"
+                  id="nummer"
+                  required
+                />
+              </section>
+            </section>
+            <h4>Tid og sted for observationen</h4>
+            <section class="formGrid">
+              <section class="felt">
+                <label for="sted">Hvor så du offeret?</label>
+                <textarea name="name" id="sted"></textarea>
+              </section>
+              <section class="felt">
+                <label for="dato">Dato</label>
+                <input class="bred" type="date" id="dato" />
+                <label for="tid">Tidspunkt</label>
+                <input class="bred" type="time" id="tid" />
+              </section>
+            </section>
+            <h4>Hvilke moves lavede offeret?</h4>
+            <section class="checkflex">
+              <div>
+                <input type="checkbox" id="ormen" />
+                <label for="ormen">Ormen</label>
+              </div>
+              <div>
+                <input type="checkbox" id="shuffle" />
+                <label for="shuffle">Shuffle</label>
+              </div>
+              <div>
+                <input type="checkbox" id="moonwalk" />
+                <label for="moonwalk">Moonwalk</label>
+              </div>
+              <div>
+                <input type="checkbox" id="boogy" />
+                <label for="boogy">Electric Boogy</label>
+              </div>
+              <div>
+                <input type="checkbox" id="style" />
+                <label for="style">Gangnam style</label>
+              </div>
+            </section>
+            <h4>Så det fedt ud?</h4>
+            <section class="range">
+              <label for="nej">Ik fedt</label>
+              <input type="range" id="nej ja" />
+              <label for="ja">Vildt fedt</label>
+            </section>
+            <button class="send">Send</button>
+          </fieldset>
+        </form>
       </section>
       <section id="form-summary">
         <h2>Summary</h2>

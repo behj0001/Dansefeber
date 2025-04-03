@@ -2,7 +2,6 @@
   background-color: var(--form-background-color);
 }
 
-#form-section,
 #form-summary {
   background-color: var(--info-background-color);
   padding: 0;

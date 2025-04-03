@@ -22,7 +22,7 @@
 
   /* Links */
   --link-color: #ffffff; /* used */
-  --hover-color: #f9fcfe; /* used */
+  --hover-color: #0681d3; /* used */
   --active-color: #a30d0d; /* used */
 
   /* From styletile */
@@ -83,4 +83,17 @@
   /* Info-boxes */
   --info-bg-color-yellow: #fceb94;
   --info-bg-color-green: #def5db;
+}
+
+.headright {
+  background-color: #1076d6;
+}
+
+fieldset {
+  background-color: #bd1c1ce0;
+  color: white;
+}
+
+#form-section {
+  background-color: #ffffffe0;
 }
