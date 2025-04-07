@@ -3,7 +3,7 @@
   --primary-bg-color: #fceb94; /* used */
   --primary-font-color: #000000; /* used */
 
-  --secondary-bg-color: #c91a1a; /* used */
+  --secondary-bg-color: #ea0c0c; /* used */
   --secondary-font-color: #ffffff; /* used */
 
   /* CAN BE DELETED WHEN THE PLACEHOLDER CLASS IS DELETED */
@@ -90,10 +90,34 @@
 }
 
 fieldset {
-  background-color: #bd1c1ce0;
+  background-color: #520505e0;
   color: white;
 }
 
 #form-section {
   background-color: #ffffffe0;
+}
+
+input:hover {
+  border-color: rgb(16, 16, 174);
+}
+
+textarea:hover {
+  border-color: rgb(16, 16, 173);
+}
+
+input:user-invalid {
+  border-color: red;
+}
+
+input:user-valid {
+  border-color: green;
+}
+
+textarea:user-invalid {
+  border-color: red;
+}
+
+textarea:user-valid {
+  border-color: green;
 }

@@ -57,3 +57,4 @@ function moneInfo() {
     document.querySelector(".info-text > h2").textContent = "Måne = Disco"
     document.querySelector(".info-text > article > p").textContent = "I region Midtjylland erfares det at flere af de inficerede anser månen som en kæmpestor discokugle. Eksperter frygter at Herning er ved at blive lavet til floor."
 }
+

@@ -40,15 +40,33 @@
             <section class="formGrid">
               <section class="felt">
                 <label for="fornavn">Fornavn</label>
-                <input class="bred" type="text" id="fornavn" required />
+                <input
+                  class="bred"
+                  type="text"
+                  id="fornavn"
+                  placeholder="Navn"
+                  required
+                />
               </section>
               <section class="felt">
                 <label for="efternavn">Efternavn</label>
-                <input class="bred" type="text" id="efternavn" required />
+                <input
+                  class="bred"
+                  type="text"
+                  id="efternavn"
+                  placeholder="Navnesen"
+                  required
+                />
               </section>
               <section class="felt">
                 <label for="mail">Email</label>
-                <input class="bred" type="text" id="mail" required />
+                <input
+                  class="bred"
+                  type="email"
+                  id="mail"
+                  placeholder="kea@kea.dk"
+                  required
+                />
               </section>
               <section class="felt">
                 <label for="nummer">Telefonnummer</label>
@@ -57,6 +75,8 @@
                   type="tel"
                   name="tel"
                   id="nummer"
+                  pattern="[0-9]{8}"
+                  placeholder="########"
                   required
                 />
               </section>
@@ -65,52 +85,85 @@
             <section class="formGrid">
               <section class="felt">
                 <label for="sted">Hvor så du offeret?</label>
-                <textarea name="name" id="sted"></textarea>
+                <textarea name="name" id="sted" required></textarea>
               </section>
               <section class="felt">
                 <label for="dato">Dato</label>
-                <input class="bred" type="date" id="dato" />
+                <input class="bred" type="date" id="dato" required />
                 <label for="tid">Tidspunkt</label>
-                <input class="bred" type="time" id="tid" />
+                <input class="bred" type="time" id="tid" required />
               </section>
             </section>
             <h4>Hvilke moves lavede offeret?</h4>
-            <section class="checkflex">
+            <form class="checkflex">
               <div>
-                <input type="checkbox" id="ormen" />
+                <input type="checkbox" name="checkbox" id="Ormen" />
                 <label for="ormen">Ormen</label>
               </div>
               <div>
-                <input type="checkbox" id="shuffle" />
+                <input type="checkbox" name="checkbox" id="Shuffle" />
                 <label for="shuffle">Shuffle</label>
               </div>
               <div>
-                <input type="checkbox" id="moonwalk" />
+                <input type="checkbox" name="checkbox" id="Moonwalk" />
                 <label for="moonwalk">Moonwalk</label>
               </div>
               <div>
-                <input type="checkbox" id="boogy" />
+                <input type="checkbox" name="checkbox" id="Electric Boogy" />
                 <label for="boogy">Electric Boogy</label>
               </div>
               <div>
-                <input type="checkbox" id="style" />
+                <input type="checkbox" name="checkbox" id="Gangnam Style" />
                 <label for="style">Gangnam style</label>
               </div>
-            </section>
+            </form>
             <h4>Så det fedt ud?</h4>
             <section class="range">
               <label for="nej">Ik fedt</label>
               <input type="range" id="nej ja" />
               <label for="ja">Vildt fedt</label>
             </section>
-            <button class="send">Send</button>
+            <button type="button" id="send">Send</button>
           </fieldset>
         </form>
       </section>
+      <!-- HER STARTER SUMMARY -->
       <section id="form-summary">
         <h2>Summary</h2>
-        <article>
-          <p class="placeholder">Opsummering</p>
+        <article id="sum">
+          <div>
+            <h3>Fornavn:</h3>
+            <p id="sumFornavn"></p>
+          </div>
+          <div>
+            <h3>Efternavn:</h3>
+            <p id="sumEfternavn"></p>
+          </div>
+          <div>
+            <h3>Email:</h3>
+            <p id="sumMail"></p>
+          </div>
+          <div>
+            <h3>Telefonnummer:</h3>
+            <p id="sumNummer"></p>
+          </div>
+          <div>
+            <h3>Lokation:</h3>
+            <p id="sumSted"></p>
+          </div>
+          <div>
+            <h3>Dato:</h3>
+            <p id="sumDato"></p>
+          </div>
+          <div>
+            <h3>Tidspunkt:</h3>
+            <p id="sumTid"></p>
+          </div>
+          <div>
+            <h3>Moves:</h3>
+            <p id="sumMoves"></p>
+          </div>
+          <button type="submit">Godkend</button>
         </article>
       </section>
     </main>
@@ -140,5 +193,6 @@
         </ul>
       </nav>
     </footer>
+    <script src="js/register.js"></script>
   </body>
 </html>
