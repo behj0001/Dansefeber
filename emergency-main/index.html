@@ -16,7 +16,9 @@
     <header>
       <nav class="headright">
         <div id="logotype-wrapper">
-          <a href="index.html"> LOGOTYPE </a>
+          <a href="index.html">
+            <img id="logo" src="./img/logo.png" alt="Logo" />
+          </a>
         </div>
         <ul class="menu">
           <li><a class="menuItem" href="instruction.html">Nærkontakt </a></li>
@@ -26,14 +28,13 @@
     </header>
     <section id="main-disclamer">
       <div id="main-disclamer-content">
-        <img src="warning" alt="ICON" />
-        <div>
+        <img id="icon" src="./img/icon.png" alt="ICON" />
+        <div id="overskriftSection">
           <h1>Akut dansefeber rammer Danmark!</h1>
-          <p>
+          <p id="underrubrik">
             Virussen gi-LLI, også kendt som dansefeber, har spredt sig som en
-            steppebrand i det danske kongerige, og statsministeren har set sig
-            nødsaget til at lægge landet i totalt lockdown. Bliv derfor inden
-            døre og hold jer opdaterede på situationen her på sitet.
+            steppebrand i det danske kongerige. Bliv derfor inden døre og hold
+            jer opdaterede på situationen her på sitet.
           </p>
         </div>
       </div>
@@ -41,23 +42,26 @@
     <main>
       <section id="daily">
         <article class="daily_card">
-          <img src="" alt="teaser_img" />
+          <img src="img/danser.jpg" id="teaser1" alt="teaser_img" />
           <div class="daily_text">
-            <h2>Teaser</h2>
+            <h2>Nærkontakt med en danser?</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-              magnam ducimus ea, sed minima asperiores.
+              Har du været i nærheden af en smittet? Indberet det og følg denne
+              procedure. gi-LLI kan forhindres hvis du reagerer hurtigt, og
+              følger disse skridt.
             </p>
             <a href="" class="cta_btn">Se mere</a>
           </div>
         </article>
         <article class="daily_card">
-          <img src="" alt="teaser_img" />
+          <img src="img/indberet.png" id="teaser2" alt="teaser_img" />
           <div class="daily_text">
-            <h2>Teaser</h2>
+            <h2>Har du set et offer?</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-              magnam ducimus ea, sed minima asperiores.
+              Har du været vidne til et tilfælde af dansefeber? Indberet det
+              straks, så myndighederne hurtigst muligt kan få fat i vedkommende
+              og begrænse smitten. Du skal blot udfylde en hurtig rapport.
+              Anslået tid: 2 min.
             </p>
             <a href="" class="cta_btn">Se mere</a>
           </div>
@@ -65,21 +69,31 @@
       </section>
       <section id="breaking">
         <article class="news_card">
-          <h3>Nyhed</h3>
-          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
-          <img src="" alt="news_img" />
-          <a class="cta_btn" href="">Læs mere</a>
+          <h3>
+            Folketinget ramt- spontane conga-linjer afbryder hasteforhandlinger
+          </h3>
+          <p>
+            "Vi forsøger at bevare roen – men det er svært, når man stepper!"
+            siger ordfører.
+          </p>
+          <img src="img/congaLinje.png" alt="news_img" />
+          <a class="cta_btn dialogKnap1" href="">Læs mere</a>
+          <dialog>
+            <form method="dialog1">
+              <button type="button">Luk</button>
+            </form>
+          </dialog>
         </article>
         <article class="news_card">
-          <h3>Nyhed</h3>
-          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
-          <img src="" alt="news_img" />
-          <a class="cta_btn" href="">Læs mere</a>
+          <h3>Radio slukket over hele landet</h3>
+          <p>Ét beat mere og hele Jylland kunne være begyndt på Macarenaen.</p>
+          <img src="img/radio.png" alt="news_img" />
+          <a class="cta_btn btn_invert" href="">Læs mere</a>
         </article>
         <article class="news_card">
-          <h3>Nyhed</h3>
-          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
-          <img src="" alt="news_img" />
+          <h3>Odder skole afspærret</h3>
+          <p>Morgensang blev til moshpit.</p>
+          <img src="img/morgensang.png" alt="news_img" />
           <a class="cta_btn" href="">Læs mere</a>
         </article>
       </section>
@@ -88,8 +102,14 @@
     <footer>
       <nav class="some">
         <ul>
-          <li><a href="">link</a></li>
-          <li><a href="">link</a></li>
+          <li>
+            Icon designed by
+            <a id="link" href="https://www.freepik.com/">Freepik.com</a>
+          </li>
+          <li>
+            Logo designed by
+            <a id="link" href="https://www.textstudio.com/">Font generator</a>
+          </li>
           <li><a href="">link</a></li>
           <li><a href="">link</a></li>
         </ul>
@@ -111,6 +131,6 @@
         </ul>
       </nav>
     </footer>
-    <!-- <script src="js/main.js"></script> -->
+    <script src="js/main.js"></script>
   </body>
 </html>

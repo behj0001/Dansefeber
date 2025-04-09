@@ -18,7 +18,7 @@
   /* Borders */
   --border-color: #007bff00; /* used */
   --border-color-light: #fff707; /* used */
-  --border-radius: 0.25rem;
+  --border-radius: 1rem;
 
   /* Links */
   --link-color: #ffffff; /* used */
@@ -28,10 +28,12 @@
   /* From styletile */
 
   /* Fonts */
-  --logotype-font: "Roboto", sans-serif;
-  --headline-font: "Roboto", sans-serif;
-  --body-font: "Roboto", sans-serif;
-  --link-font: "Calibri", sans-serif;
+  --logotype-font: "rubikBold", sans-serif;
+  --headline-font: "rubikBold", sans-serif;
+  --body-font: "rubikBold", sans-serif;
+  --link-font: "rubikMedium", sans-serif;
+  --subheading-font: "rubikLight", sans-serif;
+  --default-font: "rubikRegular", sans-serif;
 
   /* Text sizes */
   --logotype-size: 1.5rem;
@@ -51,7 +53,7 @@
   --bodytext-color-inverted: #2e861c;
   --cta-text-color: #17a817;
   --cta-text-color-inverted: #bbc3ca;
-  --followup-text-color: #575c61;
+  --followup-text-color: #000000;
   --followup-text-color-inverted: #56a812;
   --formfield-text-color: #ffffff;
   --form-submit-color: #bbc3ca;
@@ -61,7 +63,7 @@
   --logotype-background-color: #000000;
   --header-background-color: #ff4b00;
   --article-background-color: #ffffff;
-  --news-background-color: #192f72;
+  --news-background-color: #fffae2;
   --news-background-color-inverted: #dbe2f5;
   --info-background-color: #ffffff;
   --headline-bg-color: #385a8d;
@@ -71,7 +73,7 @@
   --bodytext-bg-color-inverted: #3b7c1d;
   --cta-text-bg-color: #4a7518;
   --cta-text-bg-color-inverted: #aa1c1c;
-  --followup-text-bg-color: #ffffff;
+  --followup-text-bg-color: #ffa680;
   --followup-text-bg-color-inverted: #ffffff;
   --form-background-color: #143bc9;
   --form-text-color: #1b2f6b;
@@ -79,10 +81,15 @@
   --formfield-background-color-active: #c01595;
   --form-submit-bg-color: #d524e6;
   --form-submit-bg-color-inverted: #c5149f;
+  --knap-i-header-farve: #fffae2;
 
   /* Info-boxes */
   --info-bg-color-yellow: #fceb94;
   --info-bg-color-green: #def5db;
+}
+
+#link {
+  font-size: 1rem;
 }
 
 .headright {
@@ -120,4 +127,8 @@ textarea:user-invalid {
 
 textarea:user-valid {
   border-color: green;
+}
+
+.cta_btn:hover {
+  color: rgb(255, 255, 255);
 }
