@@ -1,6 +1,9 @@
+
+
 document.querySelector("#Dame").addEventListener("mouseover", dameHue)
 document.querySelector("#Dame").addEventListener("mouseout", dameHueAF)
 document.querySelector("#Dame").addEventListener("click", dameInfo)
+
 
 function dameHue() {
     console.log("Mouseover dame aktiveret")

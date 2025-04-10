@@ -264,3 +264,40 @@ textarea {
   width: 200px;
   margin: 0 auto;
 }
+
+/* Teaser modal */
+
+#dialogBillede {
+  width: 400px;
+  float: left;
+  padding-bottom: 6px;
+  padding-right: 10px;
+}
+
+#dialog2 > img {
+  padding-top: 10px;
+}
+
+#dialog3 > img {
+  padding-top: 10px;
+}
+
+dialog {
+  max-width: 720px;
+}
+
+form > button {
+  border: none;
+  background: none;
+  font-size: 40px;
+  float: inline-end;
+}
+
+form > button:hover {
+  color: var(--headline-bg-color-alert);
+}
+
+dialog::backdrop {
+  background-color: rgba(5, 5, 5, 0.692);
+  backdrop-filter: blur(4px);
+}
